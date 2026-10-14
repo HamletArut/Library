@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>LIBRARY</h1>
+    <div class="menuBar">
+      <button class="menu-Books">Books</button>
+      <button class="menu-Visitors">Visitors</button>
+      <button class="menu-Cards">Cards</button>
+      <button class="menu-Statistics">Statistics</button>
+    </div>
+    <div class="block">
+      <span class="pageName"></span>
+      <button class="btnAddNew"></button>
+    </div>
+    <hr/>
+    <div class="statistics">
+      <div class="booksStatistc"></div>
+      <div class="visitorsStatistc"></div>
+    </div>
+    <div class="sortAndSearch">
+      <span>Sort by:</span>
+      <select class="sortBy">
+
+      </select>
+      <button class="btnSort">Sort</button>
+      <form action="">
+        <label for="search">Search:</label>
+        <input type="text" class="searchText" id="search">
+      </form>
+      <button class="btnSearch">Search</button>
+    </div>
+    <div class="table-wrapper">
+      <table class="dataTable">
+        <thead class="thead">
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+      </table>
+    </div>
+    <div class="modal">
+      <div class="modal-content">
+        <img class="img-close" src="./x.png" alt="">
+        <span class="modal-name"></span>
+        <form action="" class="modal-form">
+        </form>
+        <button class="btnSave">Save</button>
+      </div>
+    </div>
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>
